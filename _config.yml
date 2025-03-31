@@ -1,0 +1,37 @@
+remote_theme: bruno-chanrio/materialize-jekyll@1.2
+plugins:
+- jekyll-remote-theme
+- jekyll-last-modified-at
+- jemoji
+
+author: Bruno-chanrio 
+
+head-title: Mochi Live TV
+title: Mochi Live TV
+
+baseurl: "/Mochi-Live-TV"    # the subpath of your site, "/blog"
+url: ""
+
+# footer 
+description: 
+
+developedby: true
+
+#
+# Custom
+#
+
+# Color
+# All css class, see: http://materializecss.com/color.html
+header-color: "pink darken-4"
+head-theme-color: "#d81b60"     # MUST in hex format, may the same as header-color. This color is for android chrome browser.
+
+footer-color: "pink darken-4"
+footer-button-color: "pink darken-2"
+footer-link-color: "teal-text text-lighten-1"
+
+share-button-color: "teal darken-2"
+share-button-small-color: ""
+
+##
+#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
