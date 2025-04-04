@@ -12,6 +12,7 @@ mobilelogo: assets/MochiLiveTVIcon.png
 
 baseurl: "/Mochi-Live-TV"
 color: "#FF7FAC"
+head-theme-color: "#f06292"
 accentColor: pink
 themeColor: pink
 fixedNav: 'true' # true or false
