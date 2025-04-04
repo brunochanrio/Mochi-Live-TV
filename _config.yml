@@ -1,37 +1,50 @@
-remote_theme: bruno-chanrio/materialize-jekyll@1.3
+remote_theme: brunochanrio/material-jekyll-chanrio@2025.03.24
 plugins:
 - jekyll-remote-theme
-- jekyll-last-modified-at
-- jemoji
 
-author: Bruno-chanrio 
-
-head-title: Mochi Live TV
 title: Mochi Live TV
+author: Bruno-chanrio
 
-baseurl: "/Mochi-Live-TV"    # the subpath of your site, "/blog"
-url: ""
 
-# footer 
-description: 
 
+
+baseurl: "/Mochi-Live-TV"
+color: "#FF7FAC"
+accentColor: pink
+themeColor: pink
+fixedNav: 'true' # true or false
 developedby: true
 
-#
-# Custom
-#
+repo: "https://github.com/brunochanrio/Mochi-Live-TV"
+github_user: "brunochanrio"
+github_repo: "Mochi-Live-TV"
 
-# Color
-# All css class, see: http://materializecss.com/color.html
-header-color: "pink darken-4"
-head-theme-color: "#d81b60"     # MUST in hex format, may the same as header-color. This color is for android chrome browser.
+permalink: /:year/:title/
+markdown: kramdown
+exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
-footer-color: "pink darken-4"
-footer-button-color: "pink darken-2"
-footer-link-color: "teal-text text-lighten-1"
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path
 
-share-button-color: "teal darken-2"
-share-button-small-color: ""
-
-##
-#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
+# Defaults
+defaults:
+  - scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "posts"
+      type: "posts"
+    values:
+      layout: "post"
