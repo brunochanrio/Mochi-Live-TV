@@ -3,6 +3,8 @@ layout: page
 title: Privacy Policy
 permalink: /privacypolicy
 ---
+# Privacy Policy
+
 This privacy policy applies to the Mochi Live TV app (hereby referred to as "Application") for TV devices that was created by Bruno-chanrio (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
 
 ## **Information Collection and Use**
